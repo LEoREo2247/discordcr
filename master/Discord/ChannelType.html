@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="generator" content="Crystal Docs 0.36.1">
+<meta name="generator" content="Crystal Docs 1.1.1">
 <meta name="crystal_docs.project_version" content="master">
 <meta name="crystal_docs.project_name" content="discordcr">
 
@@ -66,6 +66,11 @@
       
     </li>
   
+  <li class=" " data-id="discordcr/Discord/AllowedMentions" data-name="discord::allowedmentions">
+      <a href="../Discord/AllowedMentions.html">AllowedMentions</a>
+      
+    </li>
+  
   <li class=" " data-id="discordcr/Discord/APIError" data-name="discord::apierror">
       <a href="../Discord/APIError.html">APIError</a>
       
@@ -73,6 +78,11 @@
   
   <li class=" " data-id="discordcr/Discord/Attachment" data-name="discord::attachment">
       <a href="../Discord/Attachment.html">Attachment</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/AutoArchiveDuration" data-name="discord::autoarchiveduration">
+      <a href="../Discord/AutoArchiveDuration.html">AutoArchiveDuration</a>
       
     </li>
   
@@ -431,6 +441,16 @@
       
     </li>
   
+  <li class=" " data-id="discordcr/Discord/Gateway/ThreadListSyncPayload" data-name="discord::gateway::threadlistsyncpayload">
+      <a href="../Discord/Gateway/ThreadListSyncPayload.html">ThreadListSyncPayload</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/Gateway/ThreadMembersUpdatePayload" data-name="discord::gateway::threadmembersupdatepayload">
+      <a href="../Discord/Gateway/ThreadMembersUpdatePayload.html">ThreadMembersUpdatePayload</a>
+      
+    </li>
+  
   <li class=" " data-id="discordcr/Discord/Gateway/TypingStartPayload" data-name="discord::gateway::typingstartpayload">
       <a href="../Discord/Gateway/TypingStartPayload.html">TypingStartPayload</a>
       
@@ -556,6 +576,16 @@
       
     </li>
   
+  <li class=" " data-id="discordcr/Discord/MessageFlags" data-name="discord::messageflags">
+      <a href="../Discord/MessageFlags.html">MessageFlags</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/MessageReference" data-name="discord::messagereference">
+      <a href="../Discord/MessageReference.html">MessageReference</a>
+      
+    </li>
+  
   <li class=" " data-id="discordcr/Discord/MessageType" data-name="discord::messagetype">
       <a href="../Discord/MessageType.html">MessageType</a>
       
@@ -671,6 +701,11 @@
       
     </li>
   
+  <li class=" " data-id="discordcr/Discord/REST/ThreadsPayload" data-name="discord::rest::threadspayload">
+      <a href="../Discord/REST/ThreadsPayload.html">ThreadsPayload</a>
+      
+    </li>
+  
 </ul>
 
       
@@ -681,8 +716,23 @@
       
     </li>
   
+  <li class=" " data-id="discordcr/Discord/RoleTags" data-name="discord::roletags">
+      <a href="../Discord/RoleTags.html">RoleTags</a>
+      
+    </li>
+  
   <li class=" " data-id="discordcr/Discord/Snowflake" data-name="discord::snowflake">
       <a href="../Discord/Snowflake.html">Snowflake</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/StageInstance" data-name="discord::stageinstance">
+      <a href="../Discord/StageInstance.html">StageInstance</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/StagePrivacyLevel" data-name="discord::stageprivacylevel">
+      <a href="../Discord/StagePrivacyLevel.html">StagePrivacyLevel</a>
       
     </li>
   
@@ -706,6 +756,16 @@
       
     </li>
   
+  <li class=" " data-id="discordcr/Discord/ThreadMember" data-name="discord::threadmember">
+      <a href="../Discord/ThreadMember.html">ThreadMember</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/ThreadMetaData" data-name="discord::threadmetadata">
+      <a href="../Discord/ThreadMetaData.html">ThreadMetaData</a>
+      
+    </li>
+  
   <li class=" " data-id="discordcr/Discord/UnavailableGuild" data-name="discord::unavailableguild">
       <a href="../Discord/UnavailableGuild.html">UnavailableGuild</a>
       
@@ -723,6 +783,11 @@
   
   <li class=" " data-id="discordcr/Discord/UserGuild" data-name="discord::userguild">
       <a href="../Discord/UserGuild.html">UserGuild</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/VideoQualityMode" data-name="discord::videoqualitymode">
+      <a href="../Discord/VideoQualityMode.html">VideoQualityMode</a>
       
     </li>
   
@@ -806,7 +871,7 @@
   </h2>
   
     
-      <a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L65" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L144" target="_blank">
         discordcr/mappings/channel.cr
       </a>
     
@@ -862,6 +927,26 @@
       </dt>
       
     
+      <dt class="entry-const" id="GuildNewsThread">
+        <strong>GuildNewsThread</strong> = <code><span class="n">10_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="GuildPublicThread">
+        <strong>GuildPublicThread</strong> = <code><span class="n">11_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="GuildPrivateThread">
+        <strong>GuildPrivateThread</strong> = <code><span class="n">12_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="GuildStageVoice">
+        <strong>GuildStageVoice</strong> = <code><span class="n">13_u8</span></code>
+      </dt>
+      
+    
   </dl>
 
 
@@ -877,7 +962,7 @@
   <ul class="list-summary">
     
       <li class="entry-summary">
-        <a href="#new(pull:JSON::PullParser)-class-method" class="signature"><strong>.new</strong>(pull : JSON::PullParser)</a>
+        <a href="#new%28pull%3AJSON%3A%3APullParser%29-class-method" class="signature"><strong>.new</strong>(pull : JSON::PullParser)</a>
         
       </li>
     
@@ -898,37 +983,64 @@
   <ul class="list-summary">
     
       <li class="entry-summary">
-        <a href="#dm?-instance-method" class="signature"><strong>#dm?</strong></a>
+        <a href="#dm%3F-instance-method" class="signature"><strong>#dm?</strong></a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#group_dm?-instance-method" class="signature"><strong>#group_dm?</strong></a>
+        <a href="#group_dm%3F-instance-method" class="signature"><strong>#group_dm?</strong></a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#guild_category?-instance-method" class="signature"><strong>#guild_category?</strong></a>
+        <a href="#guild_category%3F-instance-method" class="signature"><strong>#guild_category?</strong></a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#guild_news?-instance-method" class="signature"><strong>#guild_news?</strong></a>
+        <a href="#guild_news%3F-instance-method" class="signature"><strong>#guild_news?</strong></a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#guild_store?-instance-method" class="signature"><strong>#guild_store?</strong></a>
+        <a href="#guild_news_thread%3F-instance-method" class="signature"><strong>#guild_news_thread?</strong></a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#guild_text?-instance-method" class="signature"><strong>#guild_text?</strong></a>
+        <a href="#guild_private_thread%3F-instance-method" class="signature"><strong>#guild_private_thread?</strong></a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#guild_voice?-instance-method" class="signature"><strong>#guild_voice?</strong></a>
+        <a href="#guild_public_thread%3F-instance-method" class="signature"><strong>#guild_public_thread?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#guild_stage_voice%3F-instance-method" class="signature"><strong>#guild_stage_voice?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#guild_store%3F-instance-method" class="signature"><strong>#guild_store?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#guild_text%3F-instance-method" class="signature"><strong>#guild_text?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#guild_voice%3F-instance-method" class="signature"><strong>#guild_voice?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#to_json%28json%3AJSON%3A%3ABuilder%29-instance-method" class="signature"><strong>#to_json</strong>(json : JSON::Builder)</a>
+        
+          <div class="summary"><p>Serializes this enum member by name.</p></div>
         
       </li>
     
@@ -997,13 +1109,13 @@
         
         def self.<strong>new</strong>(pull : JSON::PullParser)
 
-        <a class="method-permalink" href="#new(pull:JSON::PullParser)-class-method">#</a>
+        <a class="method-permalink" href="#new%28pull%3AJSON%3A%3APullParser%29-class-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L74" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L157" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1027,13 +1139,13 @@
         
         def <strong>dm?</strong>
 
-        <a class="method-permalink" href="#dm?-instance-method">#</a>
+        <a class="method-permalink" href="#dm%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L67" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L146" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1043,13 +1155,13 @@
         
         def <strong>group_dm?</strong>
 
-        <a class="method-permalink" href="#group_dm?-instance-method">#</a>
+        <a class="method-permalink" href="#group_dm%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L69" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L148" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1059,13 +1171,13 @@
         
         def <strong>guild_category?</strong>
 
-        <a class="method-permalink" href="#guild_category?-instance-method">#</a>
+        <a class="method-permalink" href="#guild_category%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L70" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L149" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1075,13 +1187,77 @@
         
         def <strong>guild_news?</strong>
 
-        <a class="method-permalink" href="#guild_news?-instance-method">#</a>
+        <a class="method-permalink" href="#guild_news%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L71" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L150" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="guild_news_thread?-instance-method">
+      <div class="signature">
+        
+        def <strong>guild_news_thread?</strong>
+
+        <a class="method-permalink" href="#guild_news_thread%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L152" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="guild_private_thread?-instance-method">
+      <div class="signature">
+        
+        def <strong>guild_private_thread?</strong>
+
+        <a class="method-permalink" href="#guild_private_thread%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L154" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="guild_public_thread?-instance-method">
+      <div class="signature">
+        
+        def <strong>guild_public_thread?</strong>
+
+        <a class="method-permalink" href="#guild_public_thread%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L153" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="guild_stage_voice?-instance-method">
+      <div class="signature">
+        
+        def <strong>guild_stage_voice?</strong>
+
+        <a class="method-permalink" href="#guild_stage_voice%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L155" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1091,13 +1267,13 @@
         
         def <strong>guild_store?</strong>
 
-        <a class="method-permalink" href="#guild_store?-instance-method">#</a>
+        <a class="method-permalink" href="#guild_store%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L72" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L151" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1107,13 +1283,13 @@
         
         def <strong>guild_text?</strong>
 
-        <a class="method-permalink" href="#guild_text?-instance-method">#</a>
+        <a class="method-permalink" href="#guild_text%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L66" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L145" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1123,13 +1299,63 @@
         
         def <strong>guild_voice?</strong>
 
-        <a class="method-permalink" href="#guild_voice?-instance-method">#</a>
+        <a class="method-permalink" href="#guild_voice%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/shardlab/discordcr/blob/84fa43035cd911fd41a3b0aba350e54c3fa6f1a0/src/discordcr/mappings/channel.cr#L68" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L147" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="to_json(json:JSON::Builder)-instance-method">
+      <div class="signature">
+        
+        def <strong>to_json</strong>(json : JSON::Builder)
+
+        <a class="method-permalink" href="#to_json%28json%3AJSON%3A%3ABuilder%29-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+            <div class="doc-inherited">
+              Description copied from struct Enum
+            </div>
+          
+          <p>Serializes this enum member by name.</p>
+<p>For non-flags enums, the serialization is a JSON string. The value is the
+member name (see <code>#to_s</code>) transformed with <code>String#underscore</code>.</p>
+<pre><code class="language-crystal"><span class="k">enum</span> <span class="t">Stages</span>
+  <span class="t">INITIAL</span>
+  <span class="t">SECOND_STAGE</span>
+<span class="k">end</span>
+
+<span class="t">Stages</span><span class="t">::</span><span class="t">INITIAL</span>.to_json      <span class="c"># =&gt; %(&quot;initial&quot;)</span>
+<span class="t">Stages</span><span class="t">::</span><span class="t">SECOND_STAGE</span>.to_json <span class="c"># =&gt; %(&quot;second_stage&quot;)</span></code></pre>
+<p>For flags enums, the serialization is a JSON array including every flagged
+member individually serialized in the same way as a member of a non-flags enum.
+<code>None</code> is serialized as an empty array, <code>All</code> as an array containing
+all members.</p>
+<pre><code class="language-crystal">@[<span class="t">Flags</span>]
+<span class="k">enum</span> <span class="t">Sides</span>
+  <span class="t">LEFT</span>
+  <span class="t">RIGHT</span>
+<span class="k">end</span>
+
+<span class="t">Sides</span><span class="t">::</span><span class="t">LEFT</span>.to_json                  <span class="c"># =&gt; %([&quot;left&quot;])</span>
+(<span class="t">Sides</span><span class="t">::</span><span class="t">LEFT</span> <span class="o">|</span> <span class="t">Sides</span><span class="t">::</span><span class="t">RIGHT</span>).to_json <span class="c"># =&gt; %([&quot;left&quot;,&quot;right&quot;])</span>
+<span class="t">Sides</span><span class="t">::</span><span class="t">All</span>.to_json                   <span class="c"># =&gt; %([&quot;left&quot;,&quot;right&quot;])</span>
+<span class="t">Sides</span><span class="t">::</span><span class="t">None</span>.to_json                  <span class="c"># =&gt; %([])</span></code></pre>
+<p><code>ValueConverter.to_json</code> offers a different serialization strategy based on the
+member value.</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/1fb429d83531efb77370644842dcb185777e713e/src/discordcr/mappings/channel.cr#L161" target="_blank">View source</a>]
         
       </div>
     </div>
