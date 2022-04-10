@@ -275,6 +275,10 @@ module Discord
     property type : Int8
     property allow : Permissions
     property deny : Permissions
+
+    def initialize(id : UInt64 | Snowflake, @type, @allow, @deny)
+      @id = Snowflake.new(id.to_u64)
+    end
   end
 
   struct Reaction

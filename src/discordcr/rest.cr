@@ -767,7 +767,7 @@ module Discord
     #
     # [API docs for this method](https://discord.com/developers/docs/resources/channel#edit-channel-permissions)
     def edit_channel_permissions(channel_id : UInt64 | Snowflake, overwrite_id : UInt64 | Snowflake,
-                                 type : String, allow : Permissions, deny : Permissions)
+                                 type : Int8, allow : Permissions, deny : Permissions)
       json = encode_tuple(
         allow: allow,
         deny: deny,
@@ -1076,8 +1076,8 @@ module Discord
     # [API docs for this method](https://discord.com/developers/docs/resources/guild#create-guild-channel)
     def create_guild_channel(guild_id : UInt64 | Snowflake, name : String, type : ChannelType, topic : String? = nil,
                              bitrate : UInt32? = nil, user_limit : UInt32? = nil, rate_limit_per_user : Int32? = nil,
-                             position : UInt32? = nil, parent_id : UInt64? | Snowflake? = nil, nsfw : Bool? = nil,
-                             reason : String? = nil)
+                             position : UInt32? = nil, permission_overwrites : Array(Overwrite)? = nil,
+                             parent_id : UInt64? | Snowflake? = nil, nsfw : Bool? = nil, reason : String? = nil)
       json = encode_tuple(
         name: name,
         type: type,
@@ -1086,6 +1086,7 @@ module Discord
         user_limit: user_limit,
         rate_limit_per_user: rate_limit_per_user,
         position: position,
+        permission_overwrites: permission_overwrites,
         parent_id: parent_id,
         nsfw: nsfw
       )
