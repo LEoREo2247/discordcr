@@ -290,6 +290,10 @@ module Discord
 
       RoleTags.new(bot_id, integration_id, premium_subscriber)
     end
+
+    def self.to_json(value : RoleTags, builder : JSON::Builder)
+      value.to_json(builder)
+    end
   end
 
   struct GuildBan
