@@ -1050,21 +1050,21 @@
   </h2>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/enums.cr#L1" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/enums.cr#L1" target="_blank">
         discordcr/mappings/enums.cr
       </a>
     
     <br/>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/rest.cr#L4" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/rest.cr#L4" target="_blank">
         discordcr/mappings/rest.cr
       </a>
     
     <br/>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L11" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L11" target="_blank">
         discordcr/rest.cr
       </a>
     
@@ -1481,7 +1481,7 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method" class="signature"><strong>#execute_webhook</strong>(webhook_id : UInt64 | Snowflake, token : String, content : String? = <span class="n">nil</span>, file : String? = <span class="n">nil</span>, embeds : Array(Embed)? = <span class="n">nil</span>, tts : Bool? = <span class="n">nil</span>, avatar_url : String? = <span class="n">nil</span>, username : String? = <span class="n">nil</span>, allowed_mentions : AllowedMentions? = <span class="n">nil</span>, wait : Bool? = <span class="n">false</span>, thread_id : UInt64 | Snowflake? = <span class="n">nil</span>)</a>
+        <a href="#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AIO%3F%3Dnil%2Cfilename%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method" class="signature"><strong>#execute_webhook</strong>(webhook_id : UInt64 | Snowflake, token : String, content : String? = <span class="n">nil</span>, file : IO? = <span class="n">nil</span>, filename : String? = <span class="n">nil</span>, embeds : Array(Embed)? = <span class="n">nil</span>, tts : Bool? = <span class="n">nil</span>, avatar_url : String? = <span class="n">nil</span>, username : String? = <span class="n">nil</span>, allowed_mentions : AllowedMentions? = <span class="n">nil</span>, wait : Bool? = <span class="n">false</span>, thread_id : UInt64 | Snowflake? = <span class="n">nil</span>)</a>
         
           <div class="summary"><p>Executes a webhook, with a token.</p></div>
         
@@ -1901,7 +1901,7 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#modify_guild_member%28guild_id%3AUInt64%7CSnowflake%2Cuser_id%3AUInt64%7CSnowflake%2Cnick%3AString%3F%3Dnil%2Croles%3AArray%28UInt64%7CSnowflake%29%3F%3Dnil%2Cmute%3ABool%3F%3Dnil%2Cdeaf%3ABool%3F%3Dnil%2Cchannel_id%3AUInt64%7CSnowflake%7CNil%3Dnil%2Creason%3AString%3F%3Dnil%29-instance-method" class="signature"><strong>#modify_guild_member</strong>(guild_id : UInt64 | Snowflake, user_id : UInt64 | Snowflake, nick : String? = <span class="n">nil</span>, roles : Array(UInt64 | Snowflake)? = <span class="n">nil</span>, mute : Bool? = <span class="n">nil</span>, deaf : Bool? = <span class="n">nil</span>, channel_id : UInt64 | Snowflake | Nil = <span class="n">nil</span>, reason : String? = <span class="n">nil</span>)</a>
+        <a href="#modify_guild_member%28guild_id%3AUInt64%7CSnowflake%2Cuser_id%3AUInt64%7CSnowflake%2Cnick%3AString%3F%3Dnil%2Croles%3AArray%28UInt64%7CSnowflake%29%3F%3Dnil%2Cmute%3ABool%3F%3Dnil%2Cdeaf%3ABool%3F%3Dnil%2Cchannel_id%3AUInt64%7CSnowflake%7CNil%3Dnil%2Ccommunication_disabled_until%3ATime%3F%3Dnil%2Creason%3AString%3F%3Dnil%29-instance-method" class="signature"><strong>#modify_guild_member</strong>(guild_id : UInt64 | Snowflake, user_id : UInt64 | Snowflake, nick : String? = <span class="n">nil</span>, roles : Array(UInt64 | Snowflake)? = <span class="n">nil</span>, mute : Bool? = <span class="n">nil</span>, deaf : Bool? = <span class="n">nil</span>, channel_id : UInt64 | Snowflake | Nil = <span class="n">nil</span>, communication_disabled_until : Time? = <span class="n">nil</span>, reason : String? = <span class="n">nil</span>)</a>
         
           <div class="summary"><p>Changes a specific member's properties.</p></div>
         
@@ -2098,7 +2098,7 @@ to create instant invites.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1316" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1316" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2120,7 +2120,7 @@ to create instant invites.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1419" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1423" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2143,7 +2143,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L879" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L879" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2167,7 +2167,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L422" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L422" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2190,7 +2190,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2565" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2592" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2213,7 +2213,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1654" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1658" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2236,7 +2236,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L753" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L753" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2259,7 +2259,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2350" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2377" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2282,7 +2282,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2488" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2515" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2305,7 +2305,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L808" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L808" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2327,7 +2327,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2083" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2087" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2350,7 +2350,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1953" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1957" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2365,14 +2365,14 @@ before, it will be reopened.</p>
       
         <div class="doc">
           
-          <p>Create a followup message for an Interaction. Functions the same as <code><a href="../Discord/REST.html#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method">#execute_webhook</a></code>, but <code>wait</code> is always true.</p>
+          <p>Create a followup message for an Interaction. Functions the same as <code><a href="../Discord/REST.html#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AIO%3F%3Dnil%2Cfilename%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method">#execute_webhook</a></code>, but <code>wait</code> is always true.</p>
 <p><a href="https://discord.com/developers/docs/interactions/receiving-and-responding#create-followup-message">API docs for this method</a></p>
         </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2654" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2681" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2395,7 +2395,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2254" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2281" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2418,7 +2418,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2392" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2419" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2440,7 +2440,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1484" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1488" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2463,7 +2463,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1077" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1077" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2485,7 +2485,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1025" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1025" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2508,7 +2508,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1710" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1714" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2530,7 +2530,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1537" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1541" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2552,7 +2552,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2586" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2613" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2596,7 +2596,7 @@ client.create_message(channel_id, <span class="s">&quot;The content of the messa
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L317" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L317" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2622,7 +2622,7 @@ the &quot;Add Reactions&quot; permission if no one has reacted with this emoji y
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L569" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L569" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2644,7 +2644,7 @@ the &quot;Add Reactions&quot; permission if no one has reacted with this emoji y
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1114" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1114" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2667,7 +2667,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L633" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L633" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2689,7 +2689,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L216" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L216" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2712,7 +2712,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L832" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L832" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2734,7 +2734,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2743" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2770" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2756,7 +2756,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2332" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2359" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2778,7 +2778,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L961" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L961" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2800,7 +2800,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2470" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2497" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2822,7 +2822,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1046" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1046" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2844,7 +2844,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1753" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1757" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2867,7 +2867,7 @@ to be lower than the bot's highest role.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1619" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1623" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2891,7 +2891,7 @@ server.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2003" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2007" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2915,7 +2915,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L738" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L738" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2937,7 +2937,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2638" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2665" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2961,7 +2961,7 @@ simply be the UTF-8 encoded characters.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L585" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L585" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2984,7 +2984,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L894" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L894" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3007,7 +3007,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L648" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L648" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3029,7 +3029,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1173" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1173" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3054,7 +3054,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L602" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L602" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3076,7 +3076,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2180" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2184" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3098,7 +3098,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2166" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2170" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3122,7 +3122,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L769" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L769" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3144,7 +3144,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2724" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2751" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3166,7 +3166,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2304" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2331" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3188,7 +3188,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2442" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2469" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3211,7 +3211,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2544" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2571" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3234,7 +3234,7 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L713" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L713" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3256,17 +3256,17 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2619" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2646" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="execute_webhook(webhook_id:UInt64|Snowflake,token:String,content:String?=nil,file:String?=nil,embeds:Array(Embed)?=nil,tts:Bool?=nil,avatar_url:String?=nil,username:String?=nil,allowed_mentions:AllowedMentions?=nil,wait:Bool?=false,thread_id:UInt64|Snowflake?=nil)-instance-method">
+    <div class="entry-detail" id="execute_webhook(webhook_id:UInt64|Snowflake,token:String,content:String?=nil,file:IO?=nil,filename:String?=nil,embeds:Array(Embed)?=nil,tts:Bool?=nil,avatar_url:String?=nil,username:String?=nil,allowed_mentions:AllowedMentions?=nil,wait:Bool?=false,thread_id:UInt64|Snowflake?=nil)-instance-method">
       <div class="signature">
         
-        def <strong>execute_webhook</strong>(webhook_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, token : String, content : String? = <span class="n">nil</span>, file : String? = <span class="n">nil</span>, embeds : Array(<a href="../Discord/Embed.html">Embed</a>)? = <span class="n">nil</span>, tts : Bool? = <span class="n">nil</span>, avatar_url : String? = <span class="n">nil</span>, username : String? = <span class="n">nil</span>, allowed_mentions : <a href="../Discord/AllowedMentions.html">AllowedMentions</a>? = <span class="n">nil</span>, wait : Bool? = <span class="n">false</span>, thread_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>? = <span class="n">nil</span>)
+        def <strong>execute_webhook</strong>(webhook_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, token : String, content : String? = <span class="n">nil</span>, file : IO? = <span class="n">nil</span>, filename : String? = <span class="n">nil</span>, embeds : Array(<a href="../Discord/Embed.html">Embed</a>)? = <span class="n">nil</span>, tts : Bool? = <span class="n">nil</span>, avatar_url : String? = <span class="n">nil</span>, username : String? = <span class="n">nil</span>, allowed_mentions : <a href="../Discord/AllowedMentions.html">AllowedMentions</a>? = <span class="n">nil</span>, wait : Bool? = <span class="n">false</span>, thread_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>? = <span class="n">nil</span>)
 
-        <a class="method-permalink" href="#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method">#</a>
+        <a class="method-permalink" href="#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AIO%3F%3Dnil%2Cfilename%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method">#</a>
       </div>
       
         <div class="doc">
@@ -3278,7 +3278,7 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2194" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2198" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3300,7 +3300,7 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L162" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L162" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3323,7 +3323,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L791" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L791" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3346,7 +3346,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L274" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L274" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3369,7 +3369,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L231" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L231" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3391,7 +3391,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2105" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2109" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3413,7 +3413,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1835" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1839" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3435,7 +3435,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1873" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1877" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3457,7 +3457,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2706" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2733" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3479,7 +3479,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L114" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L114" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3501,7 +3501,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L130" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L130" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3523,7 +3523,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2424" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2451" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3545,7 +3545,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2286" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2313" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3567,7 +3567,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2230" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2257" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3589,7 +3589,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L908" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L908" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3611,7 +3611,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2524" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2551" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3633,7 +3633,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2506" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2533" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3655,7 +3655,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2368" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2395" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3678,7 +3678,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1465" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1469" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3701,7 +3701,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1448" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1452" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3723,7 +3723,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1060" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1060" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3745,7 +3745,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1781" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1785" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3767,7 +3767,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L993" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L993" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3790,7 +3790,7 @@ Requires the &quot;Manage Guild&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1693" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1697" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3812,7 +3812,7 @@ Requires the &quot;Manage Guild&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1262" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1262" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3835,7 +3835,7 @@ days. Requires the &quot;Kick Members&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1637" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1641" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3857,7 +3857,7 @@ days. Requires the &quot;Kick Members&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1521" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1525" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3879,7 +3879,7 @@ days. Requires the &quot;Kick Members&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1187" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1187" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3902,7 +3902,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1676" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1680" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3924,7 +3924,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2068" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2072" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3946,7 +3946,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1985" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1989" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3968,7 +3968,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L146" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L146" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3990,7 +3990,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2601" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2628" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4012,7 +4012,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L862" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L862" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4034,7 +4034,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L616" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L616" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4056,7 +4056,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1136" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1136" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4078,7 +4078,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1819" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1823" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4100,7 +4100,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1969" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1973" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4122,7 +4122,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1936" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1940" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4144,7 +4144,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2053" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2057" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4166,7 +4166,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2038" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2042" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4189,7 +4189,7 @@ Adds the current user to a thread. Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L406" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L406" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4211,7 +4211,7 @@ Adds the current user to a thread. Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1922" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1926" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4234,7 +4234,7 @@ Removes the current user from a thread. Also requires the thread is not archived
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L437" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L437" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4256,7 +4256,7 @@ Removes the current user from a thread. Also requires the thread is not archived
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L483" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L483" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4278,7 +4278,7 @@ Removes the current user from a thread. Also requires the thread is not archived
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L977" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L977" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4302,7 +4302,7 @@ to specify what ID to start at.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1280" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1280" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4324,7 +4324,7 @@ to specify what ID to start at.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L545" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L545" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4349,7 +4349,7 @@ Requires both the READ_MESSAGE_HISTORY and MANAGE_THREADS permissions.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L525" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L525" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4374,7 +4374,7 @@ Threads are ordered by archive_timestamp, in descending order. Requires the READ
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L502" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L502" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4396,7 +4396,7 @@ Threads are ordered by archive_timestamp, in descending order. Requires the READ
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L467" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L467" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4418,7 +4418,7 @@ Threads are ordered by archive_timestamp, in descending order. Requires the READ
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2022" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2026" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4441,7 +4441,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L179" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L179" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4464,7 +4464,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1852" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1856" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4487,7 +4487,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1388" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1392" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4511,7 +4511,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L926" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L926" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4534,7 +4534,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1247" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1247" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4556,7 +4556,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1797" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1801" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4578,7 +4578,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1009" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1009" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4601,17 +4601,17 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1730" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1734" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="modify_guild_member(guild_id:UInt64|Snowflake,user_id:UInt64|Snowflake,nick:String?=nil,roles:Array(UInt64|Snowflake)?=nil,mute:Bool?=nil,deaf:Bool?=nil,channel_id:UInt64|Snowflake|Nil=nil,reason:String?=nil)-instance-method">
+    <div class="entry-detail" id="modify_guild_member(guild_id:UInt64|Snowflake,user_id:UInt64|Snowflake,nick:String?=nil,roles:Array(UInt64|Snowflake)?=nil,mute:Bool?=nil,deaf:Bool?=nil,channel_id:UInt64|Snowflake|Nil=nil,communication_disabled_until:Time?=nil,reason:String?=nil)-instance-method">
       <div class="signature">
         
-        def <strong>modify_guild_member</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, user_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, nick : String? = <span class="n">nil</span>, roles : Array(<a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>)? = <span class="n">nil</span>, mute : Bool? = <span class="n">nil</span>, deaf : Bool? = <span class="n">nil</span>, channel_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a> | Nil = <span class="n">nil</span>, reason : String? = <span class="n">nil</span>)
+        def <strong>modify_guild_member</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, user_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, nick : String? = <span class="n">nil</span>, roles : Array(<a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>)? = <span class="n">nil</span>, mute : Bool? = <span class="n">nil</span>, deaf : Bool? = <span class="n">nil</span>, channel_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a> | Nil = <span class="n">nil</span>, communication_disabled_until : Time? = <span class="n">nil</span>, reason : String? = <span class="n">nil</span>)
 
-        <a class="method-permalink" href="#modify_guild_member%28guild_id%3AUInt64%7CSnowflake%2Cuser_id%3AUInt64%7CSnowflake%2Cnick%3AString%3F%3Dnil%2Croles%3AArray%28UInt64%7CSnowflake%29%3F%3Dnil%2Cmute%3ABool%3F%3Dnil%2Cdeaf%3ABool%3F%3Dnil%2Cchannel_id%3AUInt64%7CSnowflake%7CNil%3Dnil%2Creason%3AString%3F%3Dnil%29-instance-method">#</a>
+        <a class="method-permalink" href="#modify_guild_member%28guild_id%3AUInt64%7CSnowflake%2Cuser_id%3AUInt64%7CSnowflake%2Cnick%3AString%3F%3Dnil%2Croles%3AArray%28UInt64%7CSnowflake%29%3F%3Dnil%2Cmute%3ABool%3F%3Dnil%2Cdeaf%3ABool%3F%3Dnil%2Cchannel_id%3AUInt64%7CSnowflake%7CNil%3Dnil%2Ccommunication_disabled_until%3ATime%3F%3Dnil%2Creason%3AString%3F%3Dnil%29-instance-method">#</a>
       </div>
       
         <div class="doc">
@@ -4626,14 +4626,16 @@ than the bot's highest role if changing the roles,</li>
 <li>and the &quot;Move Members&quot; permission as well as the &quot;Connect&quot; permission
 to the new channel when changing voice channel ID.</li>
 </ul>
-<p><span class="flag purple">NOTE</span>  To remove a member's nickname, you can send an empty string for the <code>nick</code> argument.</p>
+<p>To remove a member's nickname, you can send an empty string for the <code>nick</code> argument.
+To set or remove a timeout, you must have the <code>MANAGE_MEMBERS</code> permission.
+The <code>communication_disabled_until</code> argument takes a time up to 28 days in the future, or nil to remove.</p>
 <p><a href="https://discord.com/developers/docs/resources/guild#modify-guild-member">API docs for this method</a></p>
         </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1357" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1359" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4656,7 +4658,7 @@ well as the role to be lower than the bot's highest role.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1569" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1573" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4679,7 +4681,7 @@ and you cannot raise roles above the bot's highest role.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1601" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1605" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4702,7 +4704,7 @@ partnered.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1204" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1204" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4728,7 +4730,7 @@ Requires &quot;REQUEST_TO_SPEAK&quot; to request to speak.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1222" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1222" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4750,7 +4752,7 @@ Requires &quot;REQUEST_TO_SPEAK&quot; to request to speak.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2121" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2125" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4772,7 +4774,7 @@ Requires &quot;REQUEST_TO_SPEAK&quot; to request to speak.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L2144" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2148" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4798,7 +4800,7 @@ to make requests until all messages are fetched in the given <code>direction</co
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L256" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L256" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4823,7 +4825,7 @@ until all guilds are fetched in the given <code>direction</code>.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1905" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1909" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4848,7 +4850,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1301" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1301" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4869,7 +4871,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L21" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L21" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4891,7 +4893,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1504" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1508" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4913,7 +4915,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1402" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1406" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4935,7 +4937,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1433" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1437" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4959,7 +4961,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L453" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L453" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4989,7 +4991,7 @@ of error checking, so if a request fails (with a status code that is not
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L82" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L82" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5014,7 +5016,7 @@ The id of the created thread will be the same as the id of the message, and as s
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L348" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L348" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5037,7 +5039,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L376" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L376" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5059,7 +5061,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1767" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1771" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5083,7 +5085,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L848" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L848" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5105,7 +5107,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L1152" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1152" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5133,7 +5135,7 @@ while <code><a href="../Discord/REST.html#create_message%28channel_id%3AUInt64%7
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/rest.cr#L669" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L669" target="_blank">View source</a>]
         
       </div>
     </div>

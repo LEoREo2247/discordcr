@@ -1036,7 +1036,7 @@
   </h2>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L34" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L34" target="_blank">
         discordcr/mappings/channel.cr
       </a>
     
@@ -1058,42 +1058,47 @@
   <dl>
     
       <dt class="entry-const" id="Crossposted">
-        <strong>Crossposted</strong> = <code><span class="n">1_u8</span></code>
+        <strong>Crossposted</strong> = <code><span class="n">1_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="IsCrosspost">
-        <strong>IsCrosspost</strong> = <code><span class="n">2_u8</span></code>
+        <strong>IsCrosspost</strong> = <code><span class="n">2_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="SuppressEmbeds">
-        <strong>SuppressEmbeds</strong> = <code><span class="n">4_u8</span></code>
+        <strong>SuppressEmbeds</strong> = <code><span class="n">4_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="SourceMessageDeleted">
-        <strong>SourceMessageDeleted</strong> = <code><span class="n">8_u8</span></code>
+        <strong>SourceMessageDeleted</strong> = <code><span class="n">8_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="Urgent">
-        <strong>Urgent</strong> = <code><span class="n">16_u8</span></code>
+        <strong>Urgent</strong> = <code><span class="n">16_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="HasThread">
-        <strong>HasThread</strong> = <code><span class="n">32_u8</span></code>
+        <strong>HasThread</strong> = <code><span class="n">32_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="Ephemeral">
-        <strong>Ephemeral</strong> = <code><span class="n">64_u8</span></code>
+        <strong>Ephemeral</strong> = <code><span class="n">64_u32</span></code>
       </dt>
       
     
       <dt class="entry-const" id="Loading">
-        <strong>Loading</strong> = <code><span class="n">128_u8</span></code>
+        <strong>Loading</strong> = <code><span class="n">128_u32</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="FailedToMentionSomeRolesInThread">
+        <strong>FailedToMentionSomeRolesInThread</strong> = <code><span class="n">256_u32</span></code>
       </dt>
       
     
@@ -1139,6 +1144,11 @@
     
       <li class="entry-summary">
         <a href="#ephemeral%3F-instance-method" class="signature"><strong>#ephemeral?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#failed_to_mention_some_roles_in_thread%3F-instance-method" class="signature"><strong>#failed_to_mention_some_roles_in_thread?</strong></a>
         
       </li>
     
@@ -1248,7 +1258,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L44" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L45" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1278,7 +1288,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L35" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L35" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1294,7 +1304,23 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L41" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L41" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="failed_to_mention_some_roles_in_thread?-instance-method">
+      <div class="signature">
+        
+        def <strong>failed_to_mention_some_roles_in_thread?</strong>
+
+        <a class="method-permalink" href="#failed_to_mention_some_roles_in_thread%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L43" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1310,7 +1336,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L40" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L40" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1326,7 +1352,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L36" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L36" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1342,7 +1368,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L42" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L42" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1358,7 +1384,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L34" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L34" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1374,7 +1400,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L38" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L38" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1390,7 +1416,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L37" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L37" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1406,7 +1432,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/5a9c06abca5cc2983d2c96527ac623191c94f993/src/discordcr/mappings/channel.cr#L39" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/channel.cr#L39" target="_blank">View source</a>]
         
       </div>
     </div>
