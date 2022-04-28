@@ -1063,7 +1063,7 @@
   </h2>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L34" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L35" target="_blank">
         discordcr/mappings/application_commands.cr
       </a>
     
@@ -1090,7 +1090,7 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#new%28name%2Cdescription%3D%22%22%2Cname_localizations%3Dnil%2Cdescription_localizations%3Dnil%2Coptions%3Dnil%2Cdefault_permission%3Dnil%2Ctype%3Dnil%29-class-method" class="signature"><strong>.new</strong>(name, description = <span class="s">&quot;&quot;</span>, name_localizations = <span class="n">nil</span>, description_localizations = <span class="n">nil</span>, options = <span class="n">nil</span>, default_permission = <span class="n">nil</span>, type = <span class="n">nil</span>)</a>
+        <a href="#new%28name%2Cdescription%3D%22%22%2Cname_localizations%3Dnil%2Cdescription_localizations%3Dnil%2Coptions%3Dnil%2Cdefault_member_permissions%3Dnil%2Cdm_permission%3Dnil%2Ctype%3Dnil%29-class-method" class="signature"><strong>.new</strong>(name, description = <span class="s">&quot;&quot;</span>, name_localizations = <span class="n">nil</span>, description_localizations = <span class="n">nil</span>, options = <span class="n">nil</span>, default_member_permissions = <span class="n">nil</span>, dm_permission = <span class="n">nil</span>, type = <span class="n">nil</span>)</a>
         
       </li>
     
@@ -1111,12 +1111,12 @@
   <ul class="list-summary">
     
       <li class="entry-summary">
-        <a href="#default_permission%3ABool%3F-instance-method" class="signature"><strong>#default_permission</strong> : Bool?</a>
+        <a href="#default_member_permissions%3APermissions%3F-instance-method" class="signature"><strong>#default_member_permissions</strong> : Permissions?</a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#default_permission%3D%28default_permission%3ABool%3F%29-instance-method" class="signature"><strong>#default_permission=</strong>(default_permission : Bool?)</a>
+        <a href="#default_member_permissions%3D%28default_member_permissions%3APermissions%3F%29-instance-method" class="signature"><strong>#default_member_permissions=</strong>(default_member_permissions : Permissions?)</a>
         
       </li>
     
@@ -1137,6 +1137,16 @@
     
       <li class="entry-summary">
         <a href="#description_localizations%3D%28description_localizations%3AHash%28String%2CString%29%3F%29-instance-method" class="signature"><strong>#description_localizations=</strong>(description_localizations : Hash(String, String)?)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dm_permission%3ABool%3F-instance-method" class="signature"><strong>#dm_permission</strong> : Bool?</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#dm_permission%3D%28dm_permission%3ABool%3F%29-instance-method" class="signature"><strong>#dm_permission=</strong>(dm_permission : Bool?)</a>
         
       </li>
     
@@ -1251,23 +1261,23 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L35" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L36" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="new(name,description=&quot;&quot;,name_localizations=nil,description_localizations=nil,options=nil,default_permission=nil,type=nil)-class-method">
+    <div class="entry-detail" id="new(name,description=&quot;&quot;,name_localizations=nil,description_localizations=nil,options=nil,default_member_permissions=nil,dm_permission=nil,type=nil)-class-method">
       <div class="signature">
         
-        def self.<strong>new</strong>(name, description = <span class="s">&quot;&quot;</span>, name_localizations = <span class="n">nil</span>, description_localizations = <span class="n">nil</span>, options = <span class="n">nil</span>, default_permission = <span class="n">nil</span>, type = <span class="n">nil</span>)
+        def self.<strong>new</strong>(name, description = <span class="s">&quot;&quot;</span>, name_localizations = <span class="n">nil</span>, description_localizations = <span class="n">nil</span>, options = <span class="n">nil</span>, default_member_permissions = <span class="n">nil</span>, dm_permission = <span class="n">nil</span>, type = <span class="n">nil</span>)
 
-        <a class="method-permalink" href="#new%28name%2Cdescription%3D%22%22%2Cname_localizations%3Dnil%2Cdescription_localizations%3Dnil%2Coptions%3Dnil%2Cdefault_permission%3Dnil%2Ctype%3Dnil%29-class-method">#</a>
+        <a class="method-permalink" href="#new%28name%2Cdescription%3D%22%22%2Cname_localizations%3Dnil%2Cdescription_localizations%3Dnil%2Coptions%3Dnil%2Cdefault_member_permissions%3Dnil%2Cdm_permission%3Dnil%2Ctype%3Dnil%29-class-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L46" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L48" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1286,34 +1296,34 @@
     Instance Method Detail
   </h2>
   
-    <div class="entry-detail" id="default_permission:Bool?-instance-method">
+    <div class="entry-detail" id="default_member_permissions:Permissions?-instance-method">
       <div class="signature">
         
-        def <strong>default_permission</strong> : Bool?
+        def <strong>default_member_permissions</strong> : <a href="../Discord/Permissions.html">Permissions</a>?
 
-        <a class="method-permalink" href="#default_permission%3ABool%3F-instance-method">#</a>
+        <a class="method-permalink" href="#default_member_permissions%3APermissions%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L42" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L43" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="default_permission=(default_permission:Bool?)-instance-method">
+    <div class="entry-detail" id="default_member_permissions=(default_member_permissions:Permissions?)-instance-method">
       <div class="signature">
         
-        def <strong>default_permission=</strong>(default_permission : Bool?)
+        def <strong>default_member_permissions=</strong>(default_member_permissions : <a href="../Discord/Permissions.html">Permissions</a>?)
 
-        <a class="method-permalink" href="#default_permission%3D%28default_permission%3ABool%3F%29-instance-method">#</a>
+        <a class="method-permalink" href="#default_member_permissions%3D%28default_member_permissions%3APermissions%3F%29-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L42" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L43" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1329,7 +1339,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L39" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L40" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1345,7 +1355,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L39" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L40" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1361,7 +1371,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L40" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L41" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1377,7 +1387,39 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L40" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L41" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dm_permission:Bool?-instance-method">
+      <div class="signature">
+        
+        def <strong>dm_permission</strong> : Bool?
+
+        <a class="method-permalink" href="#dm_permission%3ABool%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L44" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="dm_permission=(dm_permission:Bool?)-instance-method">
+      <div class="signature">
+        
+        def <strong>dm_permission=</strong>(dm_permission : Bool?)
+
+        <a class="method-permalink" href="#dm_permission%3D%28dm_permission%3ABool%3F%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L44" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1393,7 +1435,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L37" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L38" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1409,7 +1451,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L37" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L38" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1425,7 +1467,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L38" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L39" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1441,7 +1483,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L38" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L39" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1457,7 +1499,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L41" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L42" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1473,7 +1515,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L41" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L42" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1489,7 +1531,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L44" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L46" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1505,7 +1547,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/application_commands.cr#L44" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/application_commands.cr#L46" target="_blank">View source</a>]
         
       </div>
     </div>

@@ -1050,21 +1050,21 @@
   </h2>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/enums.cr#L1" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/enums.cr#L1" target="_blank">
         discordcr/mappings/enums.cr
       </a>
     
     <br/>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/mappings/rest.cr#L4" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/mappings/rest.cr#L4" target="_blank">
         discordcr/mappings/rest.cr
       </a>
     
     <br/>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L11" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L11" target="_blank">
         discordcr/rest.cr
       </a>
     
@@ -1152,13 +1152,6 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#batch_edit_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Cpermissions%3AHash%28UInt64%7CSnowflake%2CArray%28ApplicationCommandPermissions%29%29%29-instance-method" class="signature"><strong>#batch_edit_application_command_permissions</strong>(guild_id : UInt64 | Snowflake, permissions : Hash(UInt64 | Snowflake, Array(ApplicationCommandPermissions)))</a>
-        
-          <div class="summary"><p>Batch edits permissions for all commands in a guild.</p></div>
-        
-      </li>
-    
-      <li class="entry-summary">
         <a href="#begin_guild_prune%28guild_id%3AUInt64%7CSnowflake%2Cdays%3AUInt32%2Creason%3AString%3F%3Dnil%29-instance-method" class="signature"><strong>#begin_guild_prune</strong>(guild_id : UInt64 | Snowflake, days : UInt32, reason : String? = <span class="n">nil</span>)</a>
         
           <div class="summary"><p>Prunes all members from this guild which haven't been seen for more than <em>days</em> days.</p></div>
@@ -1215,14 +1208,14 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#create_global_application_command%28name%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method" class="signature"><strong>#create_global_application_command</strong>(name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>, type : ApplicationCommandType? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)</a>
+        <a href="#create_global_application_command%28name%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%2Cdm_permission%3ABool%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method" class="signature"><strong>#create_global_application_command</strong>(name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_member_permissions : Permissions? = <span class="n">nil</span>, dm_permission : Bool? = <span class="n">nil</span>, type : ApplicationCommandType? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)</a>
         
           <div class="summary"><p>Create a new global command.</p></div>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#create_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Cname%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method" class="signature"><strong>#create_guild_application_command</strong>(guild_id : UInt64 | Snowflake, name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>, type : ApplicationCommandType? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)</a>
+        <a href="#create_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Cname%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method" class="signature"><strong>#create_guild_application_command</strong>(guild_id : UInt64 | Snowflake, name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_member_permissions : Permissions? = <span class="n">nil</span>, type : ApplicationCommandType? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)</a>
         
           <div class="summary"><p>Create a new guild command.</p></div>
         
@@ -1432,6 +1425,13 @@
       </li>
     
       <li class="entry-summary">
+        <a href="#edit_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%2Cpermissions%3AArray%28ApplicationCommandPermissions%29%29-instance-method" class="signature"><strong>#edit_application_command_permissions</strong>(guild_id : UInt64 | Snowflake, command_id : UInt64 | Snowflake, permissions : Array(ApplicationCommandPermissions))</a>
+        
+          <div class="summary"><p>Edits command permissions for a specific command for your application in a guild.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
         <a href="#edit_channel_permissions%28channel_id%3AUInt64%7CSnowflake%2Coverwrite_id%3AUInt64%7CSnowflake%2Ctype%3AInt8%2Callow%3APermissions%2Cdeny%3APermissions%29-instance-method" class="signature"><strong>#edit_channel_permissions</strong>(channel_id : UInt64 | Snowflake, overwrite_id : UInt64 | Snowflake, type : Int8, allow : Permissions, deny : Permissions)</a>
         
           <div class="summary"><p>Edits an existing permission overwrite on a channel with new permissions, or creates a new one.</p></div>
@@ -1446,23 +1446,16 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#edit_global_application_command%28command_id%3AUInt64%7CSnowflake%2Cname%3AString%3F%3Dnil%2Cdescription%3AString%3F%3Dnil%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%29-instance-method" class="signature"><strong>#edit_global_application_command</strong>(command_id : UInt64 | Snowflake, name : String? = <span class="n">nil</span>, description : String? = <span class="n">nil</span>, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>)</a>
+        <a href="#edit_global_application_command%28name%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%2Cdm_permission%3ABool%3F%3Dnil%29-instance-method" class="signature"><strong>#edit_global_application_command</strong>(name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_member_permissions : Permissions? = <span class="n">nil</span>, dm_permission : Bool? = <span class="n">nil</span>)</a>
         
           <div class="summary"><p>Edit a global command.</p></div>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#edit_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%2Cname%3AString%3F%3Dnil%2Cdescription%3AString%3F%3Dnil%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%29-instance-method" class="signature"><strong>#edit_guild_application_command</strong>(guild_id : UInt64 | Snowflake, command_id : UInt64 | Snowflake, name : String? = <span class="n">nil</span>, description : String? = <span class="n">nil</span>, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>)</a>
+        <a href="#edit_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Cname%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%29-instance-method" class="signature"><strong>#edit_guild_application_command</strong>(guild_id : UInt64 | Snowflake, name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(ApplicationCommandOption)? = <span class="n">nil</span>, default_member_permissions : Permissions? = <span class="n">nil</span>)</a>
         
           <div class="summary"><p>Edit a guild command.</p></div>
-        
-      </li>
-    
-      <li class="entry-summary">
-        <a href="#edit_guild_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%2Cpermissions%3AArray%28ApplicationCommandPermissions%29%29-instance-method" class="signature"><strong>#edit_guild_application_command_permissions</strong>(guild_id : UInt64 | Snowflake, command_id : UInt64 | Snowflake, permissions : Array(ApplicationCommandPermissions))</a>
-        
-          <div class="summary"><p>Edits command permissions for a specific command for your application in a guild.</p></div>
         
       </li>
     
@@ -1484,6 +1477,13 @@
         <a href="#execute_webhook%28webhook_id%3AUInt64%7CSnowflake%2Ctoken%3AString%2Ccontent%3AString%3F%3Dnil%2Cfile%3AIO%3F%3Dnil%2Cfilename%3AString%3F%3Dnil%2Cembeds%3AArray%28Embed%29%3F%3Dnil%2Ctts%3ABool%3F%3Dnil%2Cavatar_url%3AString%3F%3Dnil%2Cusername%3AString%3F%3Dnil%2Callowed_mentions%3AAllowedMentions%3F%3Dnil%2Cwait%3ABool%3F%3Dfalse%2Cthread_id%3AUInt64%7CSnowflake%3F%3Dnil%29-instance-method" class="signature"><strong>#execute_webhook</strong>(webhook_id : UInt64 | Snowflake, token : String, content : String? = <span class="n">nil</span>, file : IO? = <span class="n">nil</span>, filename : String? = <span class="n">nil</span>, embeds : Array(Embed)? = <span class="n">nil</span>, tts : Bool? = <span class="n">nil</span>, avatar_url : String? = <span class="n">nil</span>, username : String? = <span class="n">nil</span>, allowed_mentions : AllowedMentions? = <span class="n">nil</span>, wait : Bool? = <span class="n">false</span>, thread_id : UInt64 | Snowflake? = <span class="n">nil</span>)</a>
         
           <div class="summary"><p>Executes a webhook, with a token.</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#get_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%29-instance-method" class="signature"><strong>#get_application_command_permissions</strong>(guild_id : UInt64 | Snowflake, command_id : UInt64 | Snowflake)</a>
+        
+          <div class="summary"><p>Fetches command permissions for a specific command for your application in a guild.</p></div>
         
       </li>
     
@@ -1582,13 +1582,6 @@
         <a href="#get_guild%28guild_id%3AUInt64%7CSnowflake%29-instance-method" class="signature"><strong>#get_guild</strong>(guild_id : UInt64 | Snowflake)</a>
         
           <div class="summary"><p>Gets a guild by ID.</p></div>
-        
-      </li>
-    
-      <li class="entry-summary">
-        <a href="#get_guild_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%29-instance-method" class="signature"><strong>#get_guild_application_command_permissions</strong>(guild_id : UInt64 | Snowflake, command_id : UInt64 | Snowflake)</a>
-        
-          <div class="summary"><p>Fetches command permissions for a specific command for your application in a guild.</p></div>
         
       </li>
     
@@ -2098,7 +2091,7 @@ to create instant invites.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1316" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1316" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2120,7 +2113,7 @@ to create instant invites.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1423" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1423" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2143,7 +2136,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L879" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L879" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2167,30 +2160,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L422" target="_blank">View source</a>]
-        
-      </div>
-    </div>
-  
-    <div class="entry-detail" id="batch_edit_application_command_permissions(guild_id:UInt64|Snowflake,permissions:Hash(UInt64|Snowflake,Array(ApplicationCommandPermissions)))-instance-method">
-      <div class="signature">
-        
-        def <strong>batch_edit_application_command_permissions</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, permissions : Hash(<a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, Array(<a href="../Discord/ApplicationCommandPermissions.html">ApplicationCommandPermissions</a>)))
-
-        <a class="method-permalink" href="#batch_edit_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Cpermissions%3AHash%28UInt64%7CSnowflake%2CArray%28ApplicationCommandPermissions%29%29%29-instance-method">#</a>
-      </div>
-      
-        <div class="doc">
-          
-          <p>Batch edits permissions for all commands in a guild. Takes an array of partial GuildApplicationCommandPermissions objects including id and permissions. You can only add up to 10 permission overwrites for a command.</p>
-<p><span class="flag purple">NOTE</span>  This endpoint will overwrite all existing permissions for all commands in a guild, including slash commands, user commands, and message commands.</p>
-<p><a href="https://discord.com/developers/docs/interactions/application-commands#batch-edit-application-command-permissions">API docs for this method</a></p>
-        </div>
-      
-      <br/>
-      <div>
-        
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2592" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L422" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2213,7 +2183,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1658" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1658" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2236,7 +2206,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L753" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L753" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2259,7 +2229,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2377" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2380" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2282,7 +2252,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2515" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2518" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2305,7 +2275,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L808" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L808" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2327,7 +2297,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2087" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2087" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2350,7 +2320,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1957" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1957" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2372,17 +2342,17 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2681" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2661" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="create_global_application_command(name:String,description:String,name_localizations:Hash(String,String)?,description_localizations:Hash(String,String)?,options:Array(ApplicationCommandOption)?=nil,default_permission:Bool?=nil,type:ApplicationCommandType?=ApplicationCommandType::ChatInput)-instance-method">
+    <div class="entry-detail" id="create_global_application_command(name:String,description:String,name_localizations:Hash(String,String)?,description_localizations:Hash(String,String)?,options:Array(ApplicationCommandOption)?=nil,default_member_permissions:Permissions?=nil,dm_permission:Bool?=nil,type:ApplicationCommandType?=ApplicationCommandType::ChatInput)-instance-method">
       <div class="signature">
         
-        def <strong>create_global_application_command</strong>(name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>, type : <a href="../Discord/ApplicationCommandType.html">ApplicationCommandType</a>? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)
+        def <strong>create_global_application_command</strong>(name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_member_permissions : <a href="../Discord/Permissions.html">Permissions</a>? = <span class="n">nil</span>, dm_permission : Bool? = <span class="n">nil</span>, type : <a href="../Discord/ApplicationCommandType.html">ApplicationCommandType</a>? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)
 
-        <a class="method-permalink" href="#create_global_application_command%28name%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method">#</a>
+        <a class="method-permalink" href="#create_global_application_command%28name%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%2Cdm_permission%3ABool%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method">#</a>
       </div>
       
         <div class="doc">
@@ -2395,17 +2365,17 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2281" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2281" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="create_guild_application_command(guild_id:UInt64|Snowflake,name:String,description:String,name_localizations:Hash(String,String)?,description_localizations:Hash(String,String)?,options:Array(ApplicationCommandOption)?=nil,default_permission:Bool?=nil,type:ApplicationCommandType?=ApplicationCommandType::ChatInput)-instance-method">
+    <div class="entry-detail" id="create_guild_application_command(guild_id:UInt64|Snowflake,name:String,description:String,name_localizations:Hash(String,String)?,description_localizations:Hash(String,String)?,options:Array(ApplicationCommandOption)?=nil,default_member_permissions:Permissions?=nil,type:ApplicationCommandType?=ApplicationCommandType::ChatInput)-instance-method">
       <div class="signature">
         
-        def <strong>create_guild_application_command</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>, type : <a href="../Discord/ApplicationCommandType.html">ApplicationCommandType</a>? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)
+        def <strong>create_guild_application_command</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_member_permissions : <a href="../Discord/Permissions.html">Permissions</a>? = <span class="n">nil</span>, type : <a href="../Discord/ApplicationCommandType.html">ApplicationCommandType</a>? = <span class="t">ApplicationCommandType</span><span class="t">::</span><span class="t">ChatInput</span>)
 
-        <a class="method-permalink" href="#create_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Cname%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method">#</a>
+        <a class="method-permalink" href="#create_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Cname%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%2Ctype%3AApplicationCommandType%3F%3DApplicationCommandType%3A%3AChatInput%29-instance-method">#</a>
       </div>
       
         <div class="doc">
@@ -2418,7 +2388,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2419" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2422" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2440,7 +2410,7 @@ before, it will be reopened.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1488" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1488" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2463,7 +2433,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1077" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1077" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2485,7 +2455,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1025" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1025" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2508,7 +2478,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1714" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1714" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2530,7 +2500,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1541" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1541" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2552,7 +2522,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2613" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2593" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2596,7 +2566,7 @@ client.create_message(channel_id, <span class="s">&quot;The content of the messa
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L317" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L317" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2622,7 +2592,7 @@ the &quot;Add Reactions&quot; permission if no one has reacted with this emoji y
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L569" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L569" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2644,7 +2614,7 @@ the &quot;Add Reactions&quot; permission if no one has reacted with this emoji y
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1114" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1114" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2667,7 +2637,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L633" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L633" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2689,7 +2659,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L216" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L216" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2712,7 +2682,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L832" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L832" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2734,7 +2704,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2770" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2750" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2756,7 +2726,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2359" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2362" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2778,7 +2748,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L961" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L961" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2800,7 +2770,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2497" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2500" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2822,7 +2792,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1046" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1046" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2844,7 +2814,7 @@ Permissions&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1757" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1757" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2867,7 +2837,7 @@ to be lower than the bot's highest role.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1623" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1623" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2891,7 +2861,7 @@ server.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2007" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2007" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2915,7 +2885,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L738" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L738" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2937,7 +2907,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2665" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2645" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2961,7 +2931,7 @@ simply be the UTF-8 encoded characters.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L585" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L585" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -2984,7 +2954,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L894" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L894" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3007,7 +2977,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L648" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L648" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3029,7 +2999,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1173" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1173" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3054,7 +3024,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L602" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L602" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3076,7 +3046,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2184" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2184" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3098,7 +3068,30 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2170" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2170" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="edit_application_command_permissions(guild_id:UInt64|Snowflake,command_id:UInt64|Snowflake,permissions:Array(ApplicationCommandPermissions))-instance-method">
+      <div class="signature">
+        
+        def <strong>edit_application_command_permissions</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, command_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, permissions : Array(<a href="../Discord/ApplicationCommandPermissions.html">ApplicationCommandPermissions</a>))
+
+        <a class="method-permalink" href="#edit_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%2Cpermissions%3AArray%28ApplicationCommandPermissions%29%29-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Edits command permissions for a specific command for your application in a guild. You can only add up to 10 permission overwrites for a command.</p>
+<p><span class="flag purple">NOTE</span>  This endpoint will overwrite existing permissions for the command in that guild</p>
+<p><a href="https://discord.com/developers/docs/interactions/application-commands#edit-application-command-permissions">API docs for this method</a></p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2574" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3122,7 +3115,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L769" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L769" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3144,17 +3137,17 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2751" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2731" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="edit_global_application_command(command_id:UInt64|Snowflake,name:String?=nil,description:String?=nil,options:Array(ApplicationCommandOption)?=nil,default_permission:Bool?=nil)-instance-method">
+    <div class="entry-detail" id="edit_global_application_command(name:String,description:String,name_localizations:Hash(String,String)?,description_localizations:Hash(String,String)?,options:Array(ApplicationCommandOption)?=nil,default_member_permissions:Permissions?=nil,dm_permission:Bool?=nil)-instance-method">
       <div class="signature">
         
-        def <strong>edit_global_application_command</strong>(command_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, name : String? = <span class="n">nil</span>, description : String? = <span class="n">nil</span>, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>)
+        def <strong>edit_global_application_command</strong>(name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_member_permissions : <a href="../Discord/Permissions.html">Permissions</a>? = <span class="n">nil</span>, dm_permission : Bool? = <span class="n">nil</span>)
 
-        <a class="method-permalink" href="#edit_global_application_command%28command_id%3AUInt64%7CSnowflake%2Cname%3AString%3F%3Dnil%2Cdescription%3AString%3F%3Dnil%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%29-instance-method">#</a>
+        <a class="method-permalink" href="#edit_global_application_command%28name%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%2Cdm_permission%3ABool%3F%3Dnil%29-instance-method">#</a>
       </div>
       
         <div class="doc">
@@ -3166,17 +3159,17 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2331" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2331" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="edit_guild_application_command(guild_id:UInt64|Snowflake,command_id:UInt64|Snowflake,name:String?=nil,description:String?=nil,options:Array(ApplicationCommandOption)?=nil,default_permission:Bool?=nil)-instance-method">
+    <div class="entry-detail" id="edit_guild_application_command(guild_id:UInt64|Snowflake,name:String,description:String,name_localizations:Hash(String,String)?,description_localizations:Hash(String,String)?,options:Array(ApplicationCommandOption)?=nil,default_member_permissions:Permissions?=nil)-instance-method">
       <div class="signature">
         
-        def <strong>edit_guild_application_command</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, command_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, name : String? = <span class="n">nil</span>, description : String? = <span class="n">nil</span>, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_permission : Bool? = <span class="n">nil</span>)
+        def <strong>edit_guild_application_command</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, name : String, description : String, name_localizations : Hash(String, String)?, description_localizations : Hash(String, String)?, options : Array(<a href="../Discord/ApplicationCommandOption.html">ApplicationCommandOption</a>)? = <span class="n">nil</span>, default_member_permissions : <a href="../Discord/Permissions.html">Permissions</a>? = <span class="n">nil</span>)
 
-        <a class="method-permalink" href="#edit_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%2Cname%3AString%3F%3Dnil%2Cdescription%3AString%3F%3Dnil%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_permission%3ABool%3F%3Dnil%29-instance-method">#</a>
+        <a class="method-permalink" href="#edit_guild_application_command%28guild_id%3AUInt64%7CSnowflake%2Cname%3AString%2Cdescription%3AString%2Cname_localizations%3AHash%28String%2CString%29%3F%2Cdescription_localizations%3AHash%28String%2CString%29%3F%2Coptions%3AArray%28ApplicationCommandOption%29%3F%3Dnil%2Cdefault_member_permissions%3APermissions%3F%3Dnil%29-instance-method">#</a>
       </div>
       
         <div class="doc">
@@ -3188,30 +3181,7 @@ ID. Requires the &quot;Manage Roles&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2469" target="_blank">View source</a>]
-        
-      </div>
-    </div>
-  
-    <div class="entry-detail" id="edit_guild_application_command_permissions(guild_id:UInt64|Snowflake,command_id:UInt64|Snowflake,permissions:Array(ApplicationCommandPermissions))-instance-method">
-      <div class="signature">
-        
-        def <strong>edit_guild_application_command_permissions</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, command_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, permissions : Array(<a href="../Discord/ApplicationCommandPermissions.html">ApplicationCommandPermissions</a>))
-
-        <a class="method-permalink" href="#edit_guild_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%2Cpermissions%3AArray%28ApplicationCommandPermissions%29%29-instance-method">#</a>
-      </div>
-      
-        <div class="doc">
-          
-          <p>Edits command permissions for a specific command for your application in a guild. You can only add up to 10 permission overwrites for a command.</p>
-<p><span class="flag purple">NOTE</span>  This endpoint will overwrite existing permissions for the command in that guild</p>
-<p><a href="https://discord.com/developers/docs/interactions/application-commands#edit-application-command-permissions">API docs for this method</a></p>
-        </div>
-      
-      <br/>
-      <div>
-        
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2571" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2471" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3234,7 +3204,7 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L713" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L713" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3256,7 +3226,7 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2646" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2626" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3278,7 +3248,29 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2198" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2198" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="get_application_command_permissions(guild_id:UInt64|Snowflake,command_id:UInt64|Snowflake)-instance-method">
+      <div class="signature">
+        
+        def <strong>get_application_command_permissions</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, command_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>)
+
+        <a class="method-permalink" href="#get_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%29-instance-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>Fetches command permissions for a specific command for your application in a guild.</p>
+<p><a href="https://discord.com/developers/docs/interactions/application-commands#get-application-command-permissions">API docs for this method</a></p>
+        </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2554" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3300,7 +3292,7 @@ sent by the bot itself - you can't edit others' messages.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L162" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L162" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3323,7 +3315,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L791" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L791" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3346,7 +3338,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L274" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L274" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3369,7 +3361,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L231" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L231" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3391,7 +3383,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2109" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2109" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3413,7 +3405,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1839" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1839" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3435,7 +3427,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1877" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1877" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3457,7 +3449,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2733" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2713" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3479,7 +3471,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L114" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L114" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3501,7 +3493,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L130" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L130" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3523,7 +3515,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2451" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2453" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3545,7 +3537,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2313" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2313" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3567,7 +3559,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2257" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2257" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3589,29 +3581,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L908" target="_blank">View source</a>]
-        
-      </div>
-    </div>
-  
-    <div class="entry-detail" id="get_guild_application_command_permissions(guild_id:UInt64|Snowflake,command_id:UInt64|Snowflake)-instance-method">
-      <div class="signature">
-        
-        def <strong>get_guild_application_command_permissions</strong>(guild_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>, command_id : <a href="../UInt64.html">UInt64</a> | <a href="../Discord/Snowflake.html">Snowflake</a>)
-
-        <a class="method-permalink" href="#get_guild_application_command_permissions%28guild_id%3AUInt64%7CSnowflake%2Ccommand_id%3AUInt64%7CSnowflake%29-instance-method">#</a>
-      </div>
-      
-        <div class="doc">
-          
-          <p>Fetches command permissions for a specific command for your application in a guild.</p>
-<p><a href="https://discord.com/developers/docs/interactions/application-commands#get-application-command-permissions">API docs for this method</a></p>
-        </div>
-      
-      <br/>
-      <div>
-        
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2551" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L908" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3633,7 +3603,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2533" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2536" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3655,7 +3625,7 @@ Message History&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2395" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2398" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3678,7 +3648,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1469" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1469" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3701,7 +3671,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1452" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1452" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3723,7 +3693,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1060" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1060" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3745,7 +3715,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1785" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1785" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3767,7 +3737,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L993" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L993" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3790,7 +3760,7 @@ Requires the &quot;Manage Guild&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1697" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1697" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3812,7 +3782,7 @@ Requires the &quot;Manage Guild&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1262" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1262" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3835,7 +3805,7 @@ days. Requires the &quot;Kick Members&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1641" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1641" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3857,7 +3827,7 @@ days. Requires the &quot;Kick Members&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1525" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1525" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3879,7 +3849,7 @@ days. Requires the &quot;Kick Members&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1187" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1187" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3902,7 +3872,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1680" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1680" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3924,7 +3894,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2072" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2072" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3946,7 +3916,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1989" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1989" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3968,7 +3938,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L146" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L146" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -3990,7 +3960,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2628" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2608" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4012,7 +3982,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L862" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L862" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4034,7 +4004,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L616" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L616" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4056,7 +4026,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1136" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1136" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4078,7 +4048,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1823" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1823" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4100,7 +4070,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1973" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1973" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4122,7 +4092,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1940" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1940" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4144,7 +4114,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2057" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2057" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4166,7 +4136,7 @@ VIP regions for VIP servers.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2042" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2042" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4189,7 +4159,7 @@ Adds the current user to a thread. Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L406" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L406" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4211,7 +4181,7 @@ Adds the current user to a thread. Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1926" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1926" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4234,7 +4204,7 @@ Removes the current user from a thread. Also requires the thread is not archived
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L437" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L437" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4256,7 +4226,7 @@ Removes the current user from a thread. Also requires the thread is not archived
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L483" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L483" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4278,7 +4248,7 @@ Removes the current user from a thread. Also requires the thread is not archived
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L977" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L977" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4302,7 +4272,7 @@ to specify what ID to start at.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1280" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1280" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4324,7 +4294,7 @@ to specify what ID to start at.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L545" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L545" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4349,7 +4319,7 @@ Requires both the READ_MESSAGE_HISTORY and MANAGE_THREADS permissions.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L525" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L525" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4374,7 +4344,7 @@ Threads are ordered by archive_timestamp, in descending order. Requires the READ
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L502" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L502" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4396,7 +4366,7 @@ Threads are ordered by archive_timestamp, in descending order. Requires the READ
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L467" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L467" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4418,7 +4388,7 @@ Threads are ordered by archive_timestamp, in descending order. Requires the READ
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2026" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2026" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4441,7 +4411,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L179" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L179" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4464,7 +4434,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1856" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1856" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4487,7 +4457,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1392" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1392" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4511,7 +4481,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L926" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L926" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4534,7 +4504,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1247" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1247" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4556,7 +4526,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1801" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1801" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4578,7 +4548,7 @@ Server&quot; permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1009" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1009" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4601,7 +4571,7 @@ permission.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1734" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1734" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4635,7 +4605,7 @@ The <code>communication_disabled_until</code> argument takes a time up to 28 day
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1359" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1359" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4658,7 +4628,7 @@ well as the role to be lower than the bot's highest role.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1573" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1573" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4681,7 +4651,7 @@ and you cannot raise roles above the bot's highest role.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1605" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1605" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4704,7 +4674,7 @@ partnered.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1204" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1204" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4730,7 +4700,7 @@ Requires &quot;REQUEST_TO_SPEAK&quot; to request to speak.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1222" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1222" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4752,7 +4722,7 @@ Requires &quot;REQUEST_TO_SPEAK&quot; to request to speak.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2125" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2125" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4774,7 +4744,7 @@ Requires &quot;REQUEST_TO_SPEAK&quot; to request to speak.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L2148" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L2148" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4800,7 +4770,7 @@ to make requests until all messages are fetched in the given <code>direction</co
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L256" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L256" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4825,7 +4795,7 @@ until all guilds are fetched in the given <code>direction</code>.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1909" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1909" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4850,7 +4820,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1301" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1301" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4871,7 +4841,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L21" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L21" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4893,7 +4863,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1508" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1508" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4915,7 +4885,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1406" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1406" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4937,7 +4907,7 @@ are fetched.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1437" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1437" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4961,7 +4931,7 @@ Also requires the thread is not archived.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L453" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L453" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -4991,7 +4961,7 @@ of error checking, so if a request fails (with a status code that is not
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L82" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L82" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5016,7 +4986,7 @@ The id of the created thread will be the same as the id of the message, and as s
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L348" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L348" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5039,7 +5009,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L376" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L376" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5061,7 +5031,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1771" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1771" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5085,7 +5055,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L848" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L848" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5107,7 +5077,7 @@ Creates a new thread that is not connected to an existing message.</p>
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L1152" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L1152" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -5135,7 +5105,7 @@ while <code><a href="../Discord/REST.html#create_message%28channel_id%3AUInt64%7
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/3679420d9ba6a54a737a5bee8c59c1f6a90a9d11/src/discordcr/rest.cr#L669" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/4338813ce466bd6dd388ffbd462e57f45cbd1334/src/discordcr/rest.cr#L669" target="_blank">View source</a>]
         
       </div>
     </div>
