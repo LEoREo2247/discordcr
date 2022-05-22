@@ -13,6 +13,8 @@ module Discord
     USER_AGENT  = "DiscordBot (https://github.com/discordcr/discordcr, #{Discord::VERSION})"
     API_BASE    = "https://discord.com/api/v9"
 
+    SSL_CONTEXT.verify_mode = OpenSSL::SSL::VerifyMode::NONE
+
     Log = Discord::Log.for("rest")
 
     alias RateLimitKey = {route_key: Symbol, major_parameter: UInt64?}
