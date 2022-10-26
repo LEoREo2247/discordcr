@@ -58,7 +58,7 @@ module Discord
     @zlib_reader : Compress::Zlib::Reader?
     @buffer : Bytes
 
-    def initialize(@host : String, @path : String, @port : Int32, @tls : HTTP::Client::TLSContext,
+    def initialize(@host : String, @path : String, @port : Int32, @tls : Bool,
                    @zlib_buffer_size : Int32 = 10 * 1024 * 1024)
       Log.info { "Connecting to #{@host}:#{@port}#{@path}" }
       @websocket = HTTP::WebSocket.new(

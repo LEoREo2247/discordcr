@@ -185,13 +185,11 @@ module Discord
         path = "#{url.path}/?encoding=json&v=9"
       end
 
-      tls = OpenSSL::SSL::Context::Client.new
-      tls.verify_mode = OpenSSL::SSL::VerifyMode::NONE
       websocket = Discord::WebSocket.new(
         host: url.host.not_nil!,
         path: path,
         port: 443,
-        tls: tls,
+        tls: true,
         zlib_buffer_size: @zlib_buffer_size
       )
 
