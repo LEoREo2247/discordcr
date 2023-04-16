@@ -871,11 +871,6 @@
       
     </li>
   
-  <li class=" " data-id="discordcr/Discord/SelectOption" data-name="discord::selectoption">
-      <a href="../Discord/SelectOption.html">SelectOption</a>
-      
-    </li>
-  
   <li class=" " data-id="discordcr/Discord/Snowflake" data-name="discord::snowflake">
       <a href="../Discord/Snowflake.html">Snowflake</a>
       
@@ -893,6 +888,11 @@
   
   <li class=" " data-id="discordcr/Discord/StatusException" data-name="discord::statusexception">
       <a href="../Discord/StatusException.html">StatusException</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/StringSelectOption" data-name="discord::stringselectoption">
+      <a href="../Discord/StringSelectOption.html">StringSelectOption</a>
       
     </li>
   
@@ -1036,7 +1036,7 @@
   </h2>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L4" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L4" target="_blank">
         discordcr/mappings/components.cr
       </a>
     
@@ -1067,13 +1067,33 @@
       </dt>
       
     
-      <dt class="entry-const" id="SelectMenu">
-        <strong>SelectMenu</strong> = <code><span class="n">3_u8</span></code>
+      <dt class="entry-const" id="StringSelect">
+        <strong>StringSelect</strong> = <code><span class="n">3_u8</span></code>
       </dt>
       
     
       <dt class="entry-const" id="TextInput">
         <strong>TextInput</strong> = <code><span class="n">4_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="UserSelect">
+        <strong>UserSelect</strong> = <code><span class="n">5_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="RoleSelect">
+        <strong>RoleSelect</strong> = <code><span class="n">6_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="MentionableSelect">
+        <strong>MentionableSelect</strong> = <code><span class="n">7_u8</span></code>
+      </dt>
+      
+    
+      <dt class="entry-const" id="ChannelSelect">
+        <strong>ChannelSelect</strong> = <code><span class="n">8_u8</span></code>
       </dt>
       
     
@@ -1106,12 +1126,32 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#select_menu%3F-instance-method" class="signature"><strong>#select_menu?</strong></a>
+        <a href="#channel_select%3F-instance-method" class="signature"><strong>#channel_select?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#mentionable_select%3F-instance-method" class="signature"><strong>#mentionable_select?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#role_select%3F-instance-method" class="signature"><strong>#role_select?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#string_select%3F-instance-method" class="signature"><strong>#string_select?</strong></a>
         
       </li>
     
       <li class="entry-summary">
         <a href="#text_input%3F-instance-method" class="signature"><strong>#text_input?</strong></a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#user_select%3F-instance-method" class="signature"><strong>#user_select?</strong></a>
         
       </li>
     
@@ -1190,7 +1230,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L5" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L5" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1206,23 +1246,71 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L6" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L6" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="select_menu?-instance-method">
+    <div class="entry-detail" id="channel_select?-instance-method">
       <div class="signature">
         
-        def <strong>select_menu?</strong>
+        def <strong>channel_select?</strong>
 
-        <a class="method-permalink" href="#select_menu%3F-instance-method">#</a>
+        <a class="method-permalink" href="#channel_select%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L7" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L12" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="mentionable_select?-instance-method">
+      <div class="signature">
+        
+        def <strong>mentionable_select?</strong>
+
+        <a class="method-permalink" href="#mentionable_select%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L11" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="role_select?-instance-method">
+      <div class="signature">
+        
+        def <strong>role_select?</strong>
+
+        <a class="method-permalink" href="#role_select%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L10" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="string_select?-instance-method">
+      <div class="signature">
+        
+        def <strong>string_select?</strong>
+
+        <a class="method-permalink" href="#string_select%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L7" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1238,7 +1326,23 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L8" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L8" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="user_select?-instance-method">
+      <div class="signature">
+        
+        def <strong>user_select?</strong>
+
+        <a class="method-permalink" href="#user_select%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L9" target="_blank">View source</a>]
         
       </div>
     </div>

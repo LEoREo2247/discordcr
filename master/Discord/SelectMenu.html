@@ -871,11 +871,6 @@
       
     </li>
   
-  <li class=" " data-id="discordcr/Discord/SelectOption" data-name="discord::selectoption">
-      <a href="../Discord/SelectOption.html">SelectOption</a>
-      
-    </li>
-  
   <li class=" " data-id="discordcr/Discord/Snowflake" data-name="discord::snowflake">
       <a href="../Discord/Snowflake.html">Snowflake</a>
       
@@ -893,6 +888,11 @@
   
   <li class=" " data-id="discordcr/Discord/StatusException" data-name="discord::statusexception">
       <a href="../Discord/StatusException.html">StatusException</a>
+      
+    </li>
+  
+  <li class=" " data-id="discordcr/Discord/StringSelectOption" data-name="discord::stringselectoption">
+      <a href="../Discord/StringSelectOption.html">StringSelectOption</a>
       
     </li>
   
@@ -1038,7 +1038,7 @@
   </h2>
   
     
-      <a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L63" target="_blank">
+      <a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L71" target="_blank">
         discordcr/mappings/components.cr
       </a>
     
@@ -1060,7 +1060,7 @@
   <ul class="list-summary">
     
       <li class="entry-summary">
-        <a href="#new%28custom_id%2Coptions%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.new</strong>(custom_id, options, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
+        <a href="#new%28type%2Ccustom_id%2Coptions%3Dnil%2Cchannel_types%3Dnil%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.new</strong>(type, custom_id, options = <span class="n">nil</span>, channel_types = <span class="n">nil</span>, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
         
       </li>
     
@@ -1073,6 +1073,43 @@
 
 
 
+  <h2>
+    <a id="class-method-summary" class="anchor" href="#class-method-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Class Method Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#channel%28custom_id%2Cchannel_types%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.channel</strong>(custom_id, channel_types, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#mentionable%28custom_id%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.mentionable</strong>(custom_id, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#role%28custom_id%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.role</strong>(custom_id, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#string%28custom_id%2Coptions%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.string</strong>(custom_id, options, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#user%28custom_id%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method" class="signature"><strong>.user</strong>(custom_id, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)</a>
+        
+      </li>
+    
+  </ul>
+
 
 
   <h2>
@@ -1084,6 +1121,16 @@
     Instance Method Summary
   </h2>
   <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#channel_types%3AArray%28ChannelType%29%3F-instance-method" class="signature"><strong>#channel_types</strong> : Array(ChannelType)?</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#channel_types%3D%28channel_types%3AArray%28ChannelType%29%3F%29-instance-method" class="signature"><strong>#channel_types=</strong>(channel_types : Array(ChannelType)?)</a>
+        
+      </li>
     
       <li class="entry-summary">
         <a href="#custom_id%3AString-instance-method" class="signature"><strong>#custom_id</strong> : String</a>
@@ -1126,12 +1173,12 @@
       </li>
     
       <li class="entry-summary">
-        <a href="#options%3AArray%28SelectOption%29-instance-method" class="signature"><strong>#options</strong> : Array(SelectOption)</a>
+        <a href="#options%3AArray%28StringSelectOption%29%3F-instance-method" class="signature"><strong>#options</strong> : Array(StringSelectOption)?</a>
         
       </li>
     
       <li class="entry-summary">
-        <a href="#options%3D%28options%3AArray%28SelectOption%29%29-instance-method" class="signature"><strong>#options=</strong>(options : Array(SelectOption))</a>
+        <a href="#options%3D%28options%3AArray%28StringSelectOption%29%3F%29-instance-method" class="signature"><strong>#options=</strong>(options : Array(StringSelectOption)?)</a>
         
       </li>
     
@@ -1238,18 +1285,18 @@
     Constructor Detail
   </h2>
   
-    <div class="entry-detail" id="new(custom_id,options,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
+    <div class="entry-detail" id="new(type,custom_id,options=nil,channel_types=nil,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
       <div class="signature">
         
-        def self.<strong>new</strong>(custom_id, options, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
+        def self.<strong>new</strong>(type, custom_id, options = <span class="n">nil</span>, channel_types = <span class="n">nil</span>, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
 
-        <a class="method-permalink" href="#new%28custom_id%2Coptions%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
+        <a class="method-permalink" href="#new%28type%2Ccustom_id%2Coptions%3Dnil%2Cchannel_types%3Dnil%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L73" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L80" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1265,13 +1312,103 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L63" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L71" target="_blank">View source</a>]
         
       </div>
     </div>
   
 
 
+
+  <h2>
+    <a id="class-method-detail" class="anchor" href="#class-method-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Class Method Detail
+  </h2>
+  
+    <div class="entry-detail" id="channel(custom_id,channel_types,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
+      <div class="signature">
+        
+        def self.<strong>channel</strong>(custom_id, channel_types, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
+
+        <a class="method-permalink" href="#channel%28custom_id%2Cchannel_types%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L99" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="mentionable(custom_id,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
+      <div class="signature">
+        
+        def self.<strong>mentionable</strong>(custom_id, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
+
+        <a class="method-permalink" href="#mentionable%28custom_id%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L95" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="role(custom_id,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
+      <div class="signature">
+        
+        def self.<strong>role</strong>(custom_id, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
+
+        <a class="method-permalink" href="#role%28custom_id%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L91" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="string(custom_id,options,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
+      <div class="signature">
+        
+        def self.<strong>string</strong>(custom_id, options, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
+
+        <a class="method-permalink" href="#string%28custom_id%2Coptions%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L83" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="user(custom_id,placeholder=nil,min_values=nil,max_values=nil,disabled=nil)-class-method">
+      <div class="signature">
+        
+        def self.<strong>user</strong>(custom_id, placeholder = <span class="n">nil</span>, min_values = <span class="n">nil</span>, max_values = <span class="n">nil</span>, disabled = <span class="n">nil</span>)
+
+        <a class="method-permalink" href="#user%28custom_id%2Cplaceholder%3Dnil%2Cmin_values%3Dnil%2Cmax_values%3Dnil%2Cdisabled%3Dnil%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L87" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
 
 
 
@@ -1284,6 +1421,38 @@
     Instance Method Detail
   </h2>
   
+    <div class="entry-detail" id="channel_types:Array(ChannelType)?-instance-method">
+      <div class="signature">
+        
+        def <strong>channel_types</strong> : Array(<a href="../Discord/ChannelType.html">ChannelType</a>)?
+
+        <a class="method-permalink" href="#channel_types%3AArray%28ChannelType%29%3F-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L74" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="channel_types=(channel_types:Array(ChannelType)?)-instance-method">
+      <div class="signature">
+        
+        def <strong>channel_types=</strong>(channel_types : Array(<a href="../Discord/ChannelType.html">ChannelType</a>)?)
+
+        <a class="method-permalink" href="#channel_types%3D%28channel_types%3AArray%28ChannelType%29%3F%29-instance-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L74" target="_blank">View source</a>]
+        
+      </div>
+    </div>
+  
     <div class="entry-detail" id="custom_id:String-instance-method">
       <div class="signature">
         
@@ -1295,7 +1464,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L66" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L72" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1311,7 +1480,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L66" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L72" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1327,7 +1496,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L71" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L78" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1343,7 +1512,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L71" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L78" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1359,7 +1528,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L70" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L77" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1375,7 +1544,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L70" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L77" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1391,7 +1560,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L69" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L76" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1407,39 +1576,39 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L69" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L76" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="options:Array(SelectOption)-instance-method">
+    <div class="entry-detail" id="options:Array(StringSelectOption)?-instance-method">
       <div class="signature">
         
-        def <strong>options</strong> : Array(<a href="../Discord/SelectOption.html">SelectOption</a>)
+        def <strong>options</strong> : Array(<a href="../Discord/StringSelectOption.html">StringSelectOption</a>)?
 
-        <a class="method-permalink" href="#options%3AArray%28SelectOption%29-instance-method">#</a>
+        <a class="method-permalink" href="#options%3AArray%28StringSelectOption%29%3F-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L67" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L73" target="_blank">View source</a>]
         
       </div>
     </div>
   
-    <div class="entry-detail" id="options=(options:Array(SelectOption))-instance-method">
+    <div class="entry-detail" id="options=(options:Array(StringSelectOption)?)-instance-method">
       <div class="signature">
         
-        def <strong>options=</strong>(options : Array(<a href="../Discord/SelectOption.html">SelectOption</a>))
+        def <strong>options=</strong>(options : Array(<a href="../Discord/StringSelectOption.html">StringSelectOption</a>)?)
 
-        <a class="method-permalink" href="#options%3D%28options%3AArray%28SelectOption%29%29-instance-method">#</a>
+        <a class="method-permalink" href="#options%3D%28options%3AArray%28StringSelectOption%29%3F%29-instance-method">#</a>
       </div>
       
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L67" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L73" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1455,7 +1624,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L68" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L75" target="_blank">View source</a>]
         
       </div>
     </div>
@@ -1471,7 +1640,7 @@
       <br/>
       <div>
         
-          [<a href="https://github.com/soya-daizu/discordcr/blob/d8b69b367f2122b8f56d528942fa90a7bb486ec0/src/discordcr/mappings/components.cr#L68" target="_blank">View source</a>]
+          [<a href="https://github.com/soya-daizu/discordcr/blob/a409ca150bc9a8fcd42297520a59ddd67ffaebce/src/discordcr/mappings/components.cr#L75" target="_blank">View source</a>]
         
       </div>
     </div>
